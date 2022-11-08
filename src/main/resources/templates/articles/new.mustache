@@ -1,0 +1,8 @@
+{{>layouts/header}}
+<form class="container" action="/articles/posts" method="post">
+    <input type="text" name="title" placeholder="제목을 입력하세요.">
+    <input type="text" name="content" placeholder="내용을 입력하세요.">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/articles">back</a>
+</form>
+{{>layouts/footer}}
